@@ -1,0 +1,10 @@
+#include<stdio.h>
+int main()
+{
+    int x=10;
+    int*ptr;
+    ptr=&x;
+    printf("value of x is %d\n",x);
+    printf("value of pointer is %d\n",*ptr);
+    return 0;
+}
